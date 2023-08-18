@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    
+    height:auto;
+    background: url(../pictures/image1.JPG);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    border-radius: 15px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 380px;
+    border-top: 3px solid rgba(96, 106, 192, 0.5);
+    border-left: 1px solid rgba(96, 106, 192, 0.5);
+    border-bottom: 1px solid rgba(96, 106, 192, 0.5);
+    border-right: 1px solid rgba(96, 106, 192, 0.5);
+    backdrop-filter: blur(10px);
+    background: rgba(50,50,50,0.2);
+}
+
+.box >h2{
+    color:rgba(255,255,255,0.9);
+    margin-bottom: 20px;
+}
+
+.box .input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.box .input-box > label{
+    margin-bottom: 5px;
+    color: rgba(255,255,255,0.9);
+    font-size: 13px;
+}
+
+.box .input-box > input {
+    box-sizing: border-box;
+    color: rgba(255,255,255,0.9);
+    font-size: 14px;
+    height: 35px;
+    width: 250px;
+    background: rgba(255,255,255,0.3);
+    border: 1px solid rgba(96, 106, 192, 0.5);
+    border-radius: 5px;
+    transition: 0.2s;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 0 10px;
+}
+
+.box .input-box > input:focus{
+    border:1px solid rgba(255,255,255,0.8);
+}
+
+
+.box .btn-box{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.box .btn-box > button {
+    width: 150px;
+    height: 35px;
+    border:1px solid rgba(pink); 
+    border-color: rgba(255,255,255,0.9);
+    color:rgba(255,255,255,0.9);
+    background: rgb(148, 169, 226, 0.9);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.box .btn-box > button:hover {
+    border:1px solid rgba(pink); 
+    border-color: rgba(255,255,255,0.9);   
+    background: rgba(240, 204, 210);
+}
+
+.button #register{
+    width: 150px;
+    height: 35px;
+    border:1px solid rgba(pink); 
+    border-color: rgba(255,255,255,0.9);
+    color:rgba(255,255,255,0.9);
+    background: rgb(240, 204, 210);
+    border-radius: 5px;
+    margin-top: 30px;
+}

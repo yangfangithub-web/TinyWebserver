@@ -1,0 +1,23 @@
+h1{
+    color:rebeccapurple;
+}
+
+.my-p{
+    color:green;
+}
+
+#my-p{
+    color:blue;
+}
+
+a[title] {
+    color: burlywood;
+}
+
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1,h2{
+    font-size: 22px;
+}
